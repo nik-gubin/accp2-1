@@ -1,0 +1,25 @@
+*{
+    display: block;
+    padding: 5px;
+}
+lang{
+    display: none;
+}
+user{
+    border: 1px solid black;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    float: left;
+    height: 150px;
+    transition: 1s all;
+}
+user:hover{
+    background: #aa1212;
+    color: white;
+}
+lastname,firstname{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<users>
+    <lang>en</lang>
+    <user>
+        <id>1</id>
+        <lastname>Иванов</lastname>
+        <firstname>Иван</firstname>
+        <age>18</age>
+        <salary>10000</salary>
+    </user>
+    <user>
+        <id>2</id>
+        <lastname>Иванов</lastname>
+        <firstname>Иван</firstname>
+        <age>18</age>
+        <salary>10000</salary>
+    </user>
+    <user id="3">
+        <lastname>Петрова</lastname>
+        <firstname>Мария</firstname>
+        <age>18</age>
+        <salary>10000</salary>
+    </user>
+    <user id="4" lastname="петров" 
+          firstname="Петр" age="22" salary="10001">
+        <desc>информация о пользователе</desc>
+    </user>
+    <user id="4" lastname="петров" 
+          firstname="Петр" age="22" salary="10001">
+        <documetns>
+            <doc type="паспорт" serias="0000" number="000000"></doc>
+            <doc type="ИНН"  number="0000000000"></doc>
+        </documetns>
+    </user>
+        
+</users>
+   
